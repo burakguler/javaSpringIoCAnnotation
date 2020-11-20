@@ -14,7 +14,5 @@ public class MySqlCustomerDal implements ICustomerDal {  //MySql islemleri icin 
 	public void add() {
 		System.out.println("Connection String: " + this.connectionString);
 		System.out.println("MySql veritabanina eklendi!");
-		
 	}
-
 }

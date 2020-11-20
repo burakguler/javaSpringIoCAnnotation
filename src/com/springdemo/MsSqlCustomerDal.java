@@ -1,8 +1,5 @@
 package com.springdemo;
 
-import org.springframework.stereotype.Component;
-
-@Component("database")
 public class MsSqlCustomerDal implements ICustomerDal {
 
 	String connectionString;
