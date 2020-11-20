@@ -1,7 +1,10 @@
 package com.springdemo;
 
+import org.springframework.beans.factory.annotation.Value;
+
 public class MySqlCustomerDal implements ICustomerDal {  //MySql islemleri icin dal
 
+	@Value("${database.connectionString}")
 	String connectionString;
 	public String getConnectionString() {
 		return connectionString;
